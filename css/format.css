@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+img.logo, img.logo-alt {width: 15rem;margin-top: 0px!important;
+}
+.section-about{
+    /* background-image:url('../images/background/bg2.jpg') !important;
+    background-position:center top; */
+}
+#main{
+    background-image:url('../images/background/bg2.jpg') !important;
+    background-position:center top;
+}
+h2{
+    font-weight: 900 !important;
+}
+.section-title.small {
+    font-size: 30px!important;
+    font-weight: 500 !important;
+    line-height: 45px;
+}
+.fonder {
+    display: flex;
+    align-items: center;
+}
+.contact-info .icon-boxes {
+    display: flex !important;align-items: center;
+}
+.contact-info .icon-boxes img{
+    width: 60px;
+    height: 60px;
+    margin-right:20px
+}
+h2.section-title {
+    font-family: 'League Gothic', sans-serif;letter-spacing: .3rem;
+}
+.section-title.small {
+    font-size: 30px!important;
+    font-weight: 500 !important;
+    line-height: 45px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: inherit;
+}
+.icon-boxes-title a {
+    text-transform: lowercase;
+}
+.counter-box {
+    display: flex;
+    justify-content: center;
+}
+.counter-content img {
+    display: flex;
+    margin: auto;
+}
+h5.counter-title {
+    background: #222;
+    padding:20px 30px;
+    border-radius: 80px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
+.award-box{
+    justify-content: center;
+    display: flex;
+}
+.award-box .col-md-3 {
+    text-align: center;
+}
+.banner-heading {
+    color: #ffe606 !important;
+    font-family: 'League Gothic', sans-serif!important;
+    font-weight: 500 !important;
+}
+.banner-subheading {
+    font-family: 'Poppins' !important; font-weight: 400 !important;
+}
+@media(max-width:767px){
+    h2.section-title {
+        font-size: 50px !important;text-align: center;
+    }
+    .section-title.small {
+        font-size: 20px!important;
+        line-height: 34px;padding: 0px 20px;
+    }
+    .fonder {
+        flex-direction: column;
+    }
+    .section-about {
+        padding-bottom: 0px !important;
+    }
+    header.header-mobile {
+        padding: 0;
+    }
+    .contact-info {
+        padding: 50px 20px 0px !important;
+    }
+    form.contact-form {
+        padding: 20px;
+    }
+}
